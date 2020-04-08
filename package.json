@@ -1,0 +1,21 @@
+{
+  "name": "qwk",
+  "version": "1.0.0",
+  "description": "Module to read and create QWK/REP packets used by BBS and offline readers.",
+  "main": "qwk.js",
+  "scripts": {
+    "build": "tsc",
+    "build:w": "tsc -w",
+    "clean": "rm -rf dist .nyc_output coverage",
+    "test": "alsatian \"__tests__/**/*.test.ts*\" --tap | tap-bark",
+    "test:coverage": "nyc --reporter=lcov --reporter=html npm run test && nyc report"
+  },
+  "author": "Shawn Rapp (BadOPCode)",
+  "license": "MIT",
+  "dependencies": {
+    "alsatian": "^3.2.1",
+    "nyc": "^15.0.1",
+    "ts-nodash": "^1.2.4",
+    "typescript": "^3.8.3"
+  }
+}
