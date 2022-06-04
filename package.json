@@ -15,7 +15,7 @@
   "dependencies": {
     "alsatian": "^3.2.1",
     "nyc": "^15.0.1",
-    "ts-nodash": "^1.2.4",
+    "ts-nodash": "^1.2.8",
     "typescript": "^3.8.3"
   }
 }
